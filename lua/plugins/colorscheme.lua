@@ -44,6 +44,7 @@ return {
   { "navarasu/onedark.nvim", opts = {
     style = "darker",
   } },
+  { "rebelot/kanagawa.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
