@@ -19,7 +19,6 @@ keymap.set("n", "C-a", "gg<S-v>G")
 keymap.set("n", "C-m", "C-i", opts)
 
 -- Split window
-keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
 -- Diagnostics
