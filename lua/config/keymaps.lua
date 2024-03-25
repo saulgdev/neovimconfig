@@ -21,6 +21,8 @@ keymap.set("n", "C-m", "C-i", opts)
 -- Split window
 keymap.set("n", "sv", ":vsplit<Return>", opts)
 
+-- keymap.set("n", "<space><space>", ":Telescope live_grep<Return>", opts)
+
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
     vim.diagnostic.goto_next()
